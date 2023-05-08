@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'EB Garamond', serif;
+    background-color: rgb(0, 0, 0);
+    
+}
+.cantainer{
+    background-color: rgba(10, 10, 10, 0.664);
+    border: 1px solid black;
+    width: 1100px;
+    height: 500px;
+    margin: 50px 100px;
+    border-radius: 1%;
+    box-shadow: 0 0 50px rgba(77, 76, 76, 0.559);
+    overflow: hidden;
+
+}
+.header{
+    display: inline-flex;
+}
+
+.profile{
+    width: 250px;
+    height: 500px;
+    border-right: 2px solid rgba(255, 255, 255, 0.091);
+    padding-top: 10%; 
+    text-align: center;
+}
+.name{
+    color: aquamarine;
+    font-size: larger;
+    font-variant: small-caps;
+    
+}
+.profile #job .caps{
+    color: rgb(241, 244, 244);
+    text-shadow: 1px 1px 2px rgb(0, 242, 255);
+}
+
+.social_media >a{
+    font-size: 30px;
+    padding-left: 10px;
+
+}
+
+.social_media >a .bxl-instagram{
+    color:rgb(231, 49, 3);
+}
+
+.social_media >a .bxl-facebook{
+    color:rgb(0, 4, 255);
+}
+.social_media >a .bxl-linkedin{
+    color:rgb(172, 215, 0);
+}
+.social_media >a .bxl-github{
+    color:rgb(241, 244, 244);
+}
+
+.social_media >a .bxl-instagram:hover{
+    
+    box-shadow: 0 0 10px rgb(202, 51, 51);
+    border: 1px solid rgb(202, 51, 51);
+    border-radius: 50%;
+}
+
+.social_media >a .bxl-facebook:hover{
+   
+    box-shadow: 0 0 10px rgba(0, 4, 255, 0.771);
+    border: 1px solid rgba(0, 4, 255, 0.789);
+    border-radius: 50%;
+}
+
+.social_media >a .bxl-linkedin:hover{
+    
+    box-shadow: 0 0 10px rgba(172, 215, 0, 0.772);
+    border: 1px solid rgba(172, 215, 0, 0.772);
+    border-radius: 50%;
+}
+
+.social_media >a .bxl-github:hover{
+    
+    box-shadow: 0 0 10px rgb(241, 244, 244);
+    border: 1px solid rgb(241, 244, 244);
+    border-radius: 50%;
+}
+#cv{
+    padding-top: 5%;
+}
+#cv>a{
+    color: aquamarine;
+    text-decoration: none;
+    border-radius: 10px;
+}   
+
+#cv>a:hover{
+    box-shadow: 0 0 10px aquamarine;
+}
+
+           /*===== center content start====== */
+.details{
+    width: 750px;
+    height: 450px;
+    background-color: rgba(250, 248, 248, 0.053);
+    margin: 3%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 20px rgba(245, 245, 245, 0.16);
+    text-align: center;
+    color: white;
+}
+.details >h2{
+    margin-top: 10%;
+    font-size: 40px;
+    color: aquamarine;
+}
+
+.skill{
+    display: inline-flex;
+    width: 600px;
+    margin-top: 50px;
+    gap: 20px;
+}
+.logo{
+    padding-top: 20px;
+    width: 150px;
+    height: 160px;
+    /* border: 1px solid white; */
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 60px;
+}
+#html{
+    border: 1px solid black;
+    color: orangered;
+    text-shadow:1px 1px 2px rgb(248, 248, 246);
+}
+#html:hover{
+    background-color: black;
+    cursor: pointer;
+    box-shadow:0 0 15px orangered;
+}
+
+#css{
+    border: 1px solid black;
+    color: blue;
+    text-shadow:1px 1px 2px rgb(248, 248, 246);
+}
+#css:hover{
+    background-color: black;
+    cursor: pointer;
+    box-shadow:0 0 15px blue;
+}
+#js{
+    border: 1px solid black;
+    color: yellow;
+    text-shadow:1px 1px 2px rgb(248, 248, 246);
+}
+#js:hover{
+    background-color: black;
+    cursor: pointer;
+    box-shadow:0 0 15px yellow;
+}
+
+#react{
+    border: 1px solid black;
+    color: rgb(0, 242, 255);
+    text-shadow:1px 1px 2px rgb(248, 248, 246);
+}
+#react:hover{
+    background-color: black;
+    cursor: pointer;
+    box-shadow:0 0 15px rgb(0, 242, 255);
+}
+
+
+
+        /*===== center content end====== */
+        
+
+        /* ====Nar bar start==== */
+.nav-bar{
+    
+    float: right;
+    width: 100px;
+    height: 350px;
+    margin-top: 5%;
+    margin-left: 45px;
+    background-color: black;
+    box-shadow: 0 0 15px whitesmoke;
+    border-radius: 50px;
+    padding-top: 20px;
+}
+
+.nav-bar a >i{
+    font-size: 35px;
+    color: rgba(250, 248, 248, 0.149);
+    padding-left: 8px;
+    padding-top: 22px;
+    
+}
+
+.nav-bar a .bxs-home:hover,
+.bxs-user:hover,
+.bx-notepad:hover,
+.bx-code-alt:hover,
+.bx-id-card:hover{
+    color:aquamarine;
+}
+
+.nav-bar a .bx-notepad{
+    color:aquamarine;
+}
+        /* ====Nar bar end==== */
